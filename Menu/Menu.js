@@ -10,5 +10,6 @@ const menu = document.querySelector('.menu');
 const menuButton = document.querySelector('.menu-button');
 // Using your menuButton reference, add a click handler that calls toggleMenu
 
-
+// Makes menu open on click
+// Must be below 'const menuButton'
 menuButton.addEventListener('click', toggleMenu);
